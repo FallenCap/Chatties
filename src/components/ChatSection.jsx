@@ -8,7 +8,6 @@ import SendMessage from "./SendMessage";
 
 const ChatSection = () => {
   const [messages, setMessages] = useState([]);
-  const scroll = useRef();
   useEffect(() => {
     const q = query(collection(db, "messages"), orderBy("timestamp"));
     const unsubscribe = onSnapshot(q, (querySnapshot) => {
@@ -20,7 +19,6 @@ const ChatSection = () => {
     });
     return () => unsubscribe();
   }, []);
-  console.log(messages);
 
   return (
     <div>
@@ -31,7 +29,6 @@ const ChatSection = () => {
           ))}
       </main>
       <SendMessage />
-      <span ref={scroll}></span>
     </div>
   );
 };

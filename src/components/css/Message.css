@@ -8,3 +8,9 @@
   padding: 0 !important;
   margin: 0 !important;
 }
+.box-width {
+  width: 200px;
+}
+.pleft {
+  padding-left: 10rem;
+}

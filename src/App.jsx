@@ -15,9 +15,11 @@ const App = () => {
       <div className="container mx-auto text-center">
         <Navbar />
       </div>
-      <div className="container">
-        <ChatSection />
-      </div>
+      {user ? (
+        <div className="container">
+          <ChatSection />
+        </div>
+      ) : null}
     </div>
   );
 };
