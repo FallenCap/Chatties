@@ -1,5 +1,6 @@
 .chat-container {
   height: 70vh;
   background-color: rgb(242, 242, 242);
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
