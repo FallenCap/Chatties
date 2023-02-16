@@ -50,3 +50,25 @@ p {
   word-wrap: break-word;
   word-break: break-word;
 }
+@media (max-width: 1200px) {
+  .send-name {
+    margin-left: 89%;
+  }
+}
+
+@media (max-width: 768px) {
+  .send-msg {
+    width: 25%;
+    margin-left: 71%;
+    font-size: 0.8rem;
+  }
+  .receive-msg {
+    width: 25%;
+    margin-left: 71%;
+    font-size: 0.8rem;
+    padding: 6px 16px;
+  }
+  .fs-7 {
+    font-size: 0.6rem;
+  }
+}

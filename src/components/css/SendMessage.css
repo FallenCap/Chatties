@@ -24,3 +24,29 @@ form .button:hover {
   box-shadow: 2px 3px 7px #525252;
   transition: box-shadow 0.5s ease-in-out;
 }
+
+@media (max-width: 1200px) {
+  .width {
+    width: 1120px;
+  }
+}
+
+@media (max-width: 999px) {
+  .width {
+    width: 950px;
+  }
+}
+@media (max-width: 768px) {
+  .width {
+    width: 700px;
+  }
+
+  form input {
+    font-size: 0.8rem;
+    height: 40px;
+  }
+  form .button {
+    height: 40px !important;
+    width: 50px !important;
+  }
+}

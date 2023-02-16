@@ -5,7 +5,7 @@ import "./css/Message.css";
 const styles = {
   // message: `d-flex position-relative text-center shadow-sm mt-5 py-2 px-3 rounded-pill w-25`,
   sendText: `send-msg text-end shadow-sm`,
-  receiveText: `receive-msg text-start ms-3`,
+  receiveText: `receive-msg text-start ms-3 shadow-sm`,
   sendName: `fs-7 send-name`,
   receiveName: `fs-7 receive-name ms-3`,
 };
