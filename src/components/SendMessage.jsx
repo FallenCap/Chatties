@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { auth, db } from "../firbase";
+import { auth, db } from "../firebase";
 import "./css/SendMessage.css";
 import { Button } from "reactstrap";
 import { GrSend } from "react-icons/gr";

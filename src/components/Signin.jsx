@@ -1,5 +1,5 @@
 import React from "react";
-import { auth } from "../firbase";
+import { auth } from "../firebase";
 import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
 import "bootstrap/dist/css/bootstrap.min.css";
 import GoogleButton from "react-google-button";

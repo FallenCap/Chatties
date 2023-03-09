@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/NavBar";
-import { auth } from "./firbase";
+import { auth } from "./firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import ChatSection from "./components/ChatSection";
 

@@ -3,7 +3,7 @@ import "./css/ChatSection.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Message from "./Message";
 import { query, collection, orderBy, onSnapshot } from "firebase/firestore";
-import { db } from "../firbase";
+import { db } from "../firebase";
 import SendMessage from "./SendMessage";
 
 const ChatSection = () => {

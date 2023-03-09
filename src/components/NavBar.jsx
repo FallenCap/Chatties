@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, NavbarBrand } from "reactstrap";
 import "./css/NavBar.css";
-import { auth } from "../firbase";
+import { auth } from "../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import Signin from "./Signin";
 import Logout from "./Logout";

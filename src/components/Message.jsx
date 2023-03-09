@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { auth } from "../firbase";
+import { auth } from "../firebase";
 import "./css/Message.css";
 
 const styles = {

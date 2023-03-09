@@ -2,17 +2,19 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
+// import("dotenv").config();
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD9vDoii6L68Yi4hYJVHZPZPcwqWkRmxfQ",
-  authDomain: "chatties-b7103.firebaseapp.com",
-  projectId: "chatties-b7103",
-  storageBucket: "chatties-b7103.appspot.com",
-  messagingSenderId: "78182151563",
-  appId: "1:78182151563:web:ab665ee69cd490f84aeb8e",
+  // apiKey: "AIzaSyD9vDoii6L68Yi4hYJVHZPZPcwqWkRmxfQ",
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
 };
 
 // Initialize Firebase
